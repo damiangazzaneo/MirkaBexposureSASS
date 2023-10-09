@@ -1,0 +1,34 @@
+@media screen and (max-width: 768px) {
+    .presentacion-index h2 {
+        padding-top: 1.25rem;
+        color: rgb(255, 128, 0);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .bioGeneral div {
+    width: 100%;
+    background-color: red;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 18.75rem;
+    background-image: url(../assets/img/inseparable.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .bioGeneral div p{
+        padding-top: 1.25rem;
+        color:blueviolet
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .top-2 li a {
+        padding-top: 1.25rem;
+        color: brown;
+    }
+}

@@ -1,0 +1,44 @@
+@media screen and (max-width: 425px) {
+    .presentacion-index h2 {
+        padding-top: 1.25rem;
+        color: blue;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .bioGeneral div {
+    width: 100%;
+    background-color: red;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 18.75rem;
+    background-image: url(../assets/img/mujer.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .bioGeneral div p{
+        padding-top: 1.25rem;
+        color:rgb(243, 14, 124)
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .top-2 li a {
+        padding-top: 1.25rem;
+        color: yellow
+}
+}
+
+@media screen and (max-width: 425px) {
+    .navbar {
+        padding-top: 1.25rem;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+}

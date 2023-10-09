@@ -1,0 +1,35 @@
+.bioGeneral {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.cuadro-1 {
+    background-color: rgba(224, 225, 225, 0.39);
+    text-align: center;
+    padding: 1rem 3rem 1rem 3rem;
+    width: 14rem;
+    height:20rem;
+    border-radius: 15px;
+    border: 1px;
+    box-shadow: gray;
+    overflow:hidden;
+    margin: .3125rem;
+    
+}
+
+.cuadro-1 p{
+color: black;
+font-size: large;
+text-align: center;
+}
+
+.cuadroDos {
+@extend .cuadro-1;
+}
+
+.cuadroDos p {
+    color: black;
+    font-size: large;
+    text-align: center;
+}

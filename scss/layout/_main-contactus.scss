@@ -1,0 +1,24 @@
+.contacto-form {
+    @include grid (repeat(2,12.5rem),repeat(2,12.5rem));
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+    padding: 1em;
+    gap: 5em;
+}
+
+.label-style {
+    color: white;
+    background-color: rgba(87, 87, 87, 0.62);
+}
+
+.probandOsi label {
+color: wheat;
+text-align: center;
+justify-items: center;
+align-items: center;
+gap: .75rem;
+}

@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family:Aesthetic ;
+    src: url('https://fonts.googleapis.com/css2? family= Jost:ital@1 & family= PT+Serif:ital@1 & display=swap');
+}
+
+h1 {
+    justify-content: center;
+    text-align: center;
+}
+
+h2 {
+    @extend h1
+}
+
