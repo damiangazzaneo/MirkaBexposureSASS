@@ -11,25 +11,43 @@ h1, h2 {
   justify-content: center;
   text-align: center; }
 
-header {
-  background-color: rgba(0, 0, 0, 0.638);
+.nav-wrapper {
+  width: 100%;
+  max-width: 62.5rem;
+  margin: 0 auto;
+  padding: 1rem; }
+
+nav {
   display: flex;
-  justify-content: center;
-  padding: .125rem; }
-  header .navbar {
-    overflow: hidden;
-    position: sticky; }
-    header .navbar ul {
-      display: flex;
-      justify-content: center;
-      list-style: none;
-      gap: 1.5rem; }
-      header .navbar ul li a {
-        text-decoration: none;
-        color: white;
-        font-size: 1.1rem; }
-        header .navbar ul li a:hover {
-          color: #25b7ad; }
+  flex-wrap: wrap;
+  font-family: 'Nothing You Could Do', cursive;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #4b4a4a;
+  padding: .4375rem 1.5rem;
+  border-radius: 0.4rem;
+  box-shadow: 3px 3px 3px 3px; }
+
+nav .menu {
+  text-align: center; }
+  nav .menu a {
+    font-weight: 700;
+    color: whitesmoke; }
+
+nav .logo {
+  font-weight: 700; }
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 2rem; }
+
+nav a {
+  text-decoration: none;
+  color: white; }
+
+nav #toggle, nav label {
+  display: none; }
 
 .Home {
   background-image: url(/assets/img/fondohtml.jpg);
@@ -39,21 +57,39 @@ header {
 
 .presentacion-index {
   display: flex;
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 1.5rem;
   background-color: rgba(12, 7, 7, 0.349);
   text-align: center;
-  justify-content: center; }
+  justify-content: center;
+  padding: .875rem; }
+
+.videoPresentando {
+  display: flex;
+  font-family: 'Jost';
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 2.1875rem; }
 
 .bioGeneral {
   display: flex;
+  font-family: 'Bebas Neue', sans-serif;
   align-items: center;
-  justify-content: space-around; }
+  justify-content: space-around;
+  width: 100%;
+  height: 75vh; }
+
+.presentacion-bio {
+  font-family: 'Bebas Neue', sans-serif;
+  padding: .5rem;
+  font-size: 1.2rem; }
 
 .cuadro-1, .cuadroDos {
-  background-color: rgba(224, 225, 225, 0.39);
   text-align: center;
-  padding: 1rem 3rem 1rem 3rem;
-  width: 14rem;
-  height: 20rem;
+  padding: 1rem 2rem 1rem 2rem;
+  width: 30rem;
+  height: 30rem;
   border-radius: 15px;
   border: 1px;
   box-shadow: gray;
@@ -61,19 +97,21 @@ header {
   margin: .3125rem; }
 
 .cuadro-1 p, .cuadroDos p {
+  font-family: 'Cinzel Decorative', serif;
   color: black;
-  font-size: large;
+  font-size: 1rem;
   text-align: center; }
 
 .cuadroDos p {
   color: black;
-  font-size: large;
+  font-family: 'Cinzel Decorative', serif;
+  font-size: 1rem;
   text-align: center; }
 
 .contacto-form {
   display: grid;
-  grid-template-columns: repeat(2, 12.5rem);
-  grid-template-rows: repeat(2, 12.5rem);
+  grid-template-columns: repeat(2, 30rem);
+  grid-template-rows: repeat(2, 30rem);
   width: 100%;
   height: 100vh;
   justify-content: center;
@@ -83,16 +121,36 @@ header {
   padding: 1em;
   gap: 5em; }
 
+.titulo-contactus h2 {
+  font-family: 'Bebas Neue', sans-serif;
+  padding: .875rem;
+  font-size: 2.5rem; }
+
 .label-style {
   color: white;
-  background-color: rgba(87, 87, 87, 0.62); }
-
-.probandOsi label {
-  color: wheat;
+  background-color: rgba(87, 87, 87, 0.62);
+  font-family: 'Nothing You Could Do', cursive;
   text-align: center;
+  justify-content: center;
   justify-items: center;
   align-items: center;
-  gap: .75rem; }
+  font-size: 2rem;
+  padding: 1rem 2rem 1rem 2rem;
+  width: 35rem;
+  height: 25rem; }
+
+.probandOsi {
+  color: black;
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 2rem;
+  text-align: center;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  padding: 1rem 2rem 1rem 2rem;
+  width: 15rem;
+  height: 10rem;
+  gap: 1.5rem; }
 
 footer {
   display: flex;
@@ -100,8 +158,10 @@ footer {
   justify-content: space-between;
   align-items: center;
   gap: 15rem;
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 1.5rem;
   text-align: center;
-  padding: 1.25rem;
+  padding: 1.875rem;
   position: absolute;
   bottom: 0;
   left: 0;
@@ -109,7 +169,7 @@ footer {
   footer li {
     display: inline-block; }
     footer li a {
-      gap: 8.75rem;
+      gap: 11.875rem;
       color: black; }
       footer li a:hover {
         padding-left: .375rem;
@@ -120,7 +180,46 @@ footer {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  gap: 2.1875rem; }
+  width: 100%;
+  height: 70vh;
+  gap: 1.875rem; }
+
+.parrafo-ubi {
+  font-family: 'Bebas Neue', sans-serif;
+  padding: .875rem;
+  font-size: 1.3rem; }
+
+@media (max-width: 768px) {
+  nav .menu {
+    width: 100%;
+    height: 0;
+    overflow: hidden; }
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+    padding: 0.5rem 0; }
+  nav label {
+    display: inline-flex;
+    color: white;
+    cursor: pointer; }
+  nav #toggle:checked ~ .menu {
+    height: 100%; } }
+
+@media (max-width: 425px) {
+  nav .menu {
+    width: 100%;
+    height: 0;
+    overflow: hidden; }
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+    padding: 0.5rem 0; }
+  nav label {
+    display: inline-flex;
+    color: white;
+    cursor: pointer; }
+  nav #toggle:checked ~ .menu {
+    height: 100%; } }
 
 @media screen and (max-width: 425px) {
   .presentacion-index h2 {

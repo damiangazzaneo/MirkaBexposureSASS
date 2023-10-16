@@ -1,6 +1,18 @@
 .presentacion-index {
     display: flex;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.5rem;
     background-color: rgba(12, 7, 7, 0.349);
     text-align: center;
     justify-content: center;
+    padding: .875rem;
+}
+
+.videoPresentando {
+    display: flex;
+    font-family: 'Jost';
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2.1875rem
 }
