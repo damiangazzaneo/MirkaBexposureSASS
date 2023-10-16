@@ -2,34 +2,52 @@
 @media screen and (max-width: 768px) {
     .presentacion-index h2 {
         padding-top: 1.25rem;
-        color: rgb(255, 128, 0);
+        color: rgb(6, 6, 6);
     }
 }
 
-@media screen and (max-width: 768px) {
-    .bioGeneral div {
-    width: 100%;
-    background-color: red;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 18.75rem;
-    background-image: url(../assets/img/inseparable.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;
+@media screen and (max-width: 768px){
+        .bioGeneral div {
+            width: auto;
+            height: 100vh;
+            padding: auto;
+            margin: auto;
+            text-align: center;
+            align-items: center;
+            justify-content: center;
     }
 }
 
 @media screen and (max-width: 768px) {
     .bioGeneral div p{
         padding-top: 1.25rem;
-        color:blueviolet
+        color:rgb(0, 0, 0)
     }
 }
 
 @media screen and (max-width: 768px) {
     .top-2 li a {
         padding-top: 1.25rem;
-        color: brown;
+        color: rgb(0, 0, 0);
     }
+}
+
+@media screen and (max-width: 768px){
+    .ubi-html{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 70vh;
+    gap: 1.875rem;
+    }
+}
+
+@media screen and (max-width: 768px){
+footer {
+    background-color: red;
+display: flex;
+}
 }

@@ -1,13 +1,12 @@
 .contacto-form {
-    @include grid (repeat(2,30rem),repeat(2,30rem));
-    width: 100%;
-    height: 100vh;
-    justify-content: center; 
-    align-content: center; 
-    justify-items: center; 
-    align-items: center; 
-    padding: 1em; 
-    gap: 5em; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 2rem;
+    text-align: center;
+    padding: 2.625rem;
 }
 
 .titulo-contactus h2 { 
@@ -15,19 +14,7 @@
     padding: .875rem; 
     font-size: 2.5rem; 
 }
-.label-style { 
-    color: white; 
-    background-color: rgba(87, 87, 87, 0.62); 
-    font-family: 'Nothing You Could Do', cursive; 
-    text-align: center; 
-    justify-content: center; 
-    justify-items: center; 
-    align-items: center;
-    font-size: 2rem; 
-    padding: 1rem 2rem 1rem 2rem;
-    width: 35rem;
-    height:25rem;
-}
+
     .probandOsi {
         color: black;
         font-family: 'Bebas Neue', sans-serif;

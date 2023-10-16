@@ -109,35 +109,19 @@ nav #toggle, nav label {
   text-align: center; }
 
 .contacto-form {
-  display: grid;
-  grid-template-columns: repeat(2, 30rem);
-  grid-template-rows: repeat(2, 30rem);
-  width: 100%;
-  height: 100vh;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
-  align-content: center;
-  justify-items: center;
   align-items: center;
-  padding: 1em;
-  gap: 5em; }
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 2rem;
+  text-align: center;
+  padding: 2.625rem; }
 
 .titulo-contactus h2 {
   font-family: 'Bebas Neue', sans-serif;
   padding: .875rem;
   font-size: 2.5rem; }
-
-.label-style {
-  color: white;
-  background-color: rgba(87, 87, 87, 0.62);
-  font-family: 'Nothing You Could Do', cursive;
-  text-align: center;
-  justify-content: center;
-  justify-items: center;
-  align-items: center;
-  font-size: 2rem;
-  padding: 1rem 2rem 1rem 2rem;
-  width: 35rem;
-  height: 25rem; }
 
 .probandOsi {
   color: black;
@@ -228,20 +212,18 @@ footer {
 
 @media screen and (max-width: 425px) {
   .bioGeneral div {
-    width: 100%;
-    background-color: red;
-    flex-direction: column;
+    width: auto;
+    height: 100vh;
+    padding: auto;
+    margin: auto;
+    text-align: center;
     align-items: center;
-    justify-content: center;
-    height: 18.75rem;
-    background-image: url(../assets/img/mujer.jpg);
-    background-repeat: no-repeat;
-    background-size: cover; } }
+    justify-content: center; } }
 
 @media screen and (max-width: 425px) {
   .bioGeneral div p {
     padding-top: 1.25rem;
-    color: #f30e7c; } }
+    color: black; } }
 
 @media screen and (max-width: 425px) {
   .top-2 li a {
@@ -255,29 +237,54 @@ footer {
     align-items: center;
     justify-content: center; } }
 
+@media screen and (max-width: 425px) {
+  .ubi-html {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 70vh;
+    gap: 1.875rem; } }
+
 @media screen and (max-width: 768px) {
   .presentacion-index h2 {
     padding-top: 1.25rem;
-    color: #ff8000; } }
+    color: #060606; } }
 
 @media screen and (max-width: 768px) {
   .bioGeneral div {
-    width: 100%;
-    background-color: red;
-    flex-direction: column;
+    width: auto;
+    height: 100vh;
+    padding: auto;
+    margin: auto;
+    text-align: center;
     align-items: center;
-    justify-content: center;
-    height: 18.75rem;
-    background-image: url(../assets/img/inseparable.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover; } }
+    justify-content: center; } }
 
 @media screen and (max-width: 768px) {
   .bioGeneral div p {
     padding-top: 1.25rem;
-    color: blueviolet; } }
+    color: black; } }
 
 @media screen and (max-width: 768px) {
   .top-2 li a {
     padding-top: 1.25rem;
-    color: brown; } }
+    color: black; } }
+
+@media screen and (max-width: 768px) {
+  .ubi-html {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 70vh;
+    gap: 1.875rem; } }
+
+@media screen and (max-width: 768px) {
+  footer {
+    background-color: red;
+    display: flex; } }
