@@ -2,7 +2,7 @@
 @media screen and (max-width: 768px) {
     .presentacion-index h2 {
         padding-top: 1.25rem;
-        color: rgb(6, 6, 6);
+        color: rgb(255, 255, 255);
     }
 }
 
@@ -21,14 +21,14 @@
 @media screen and (max-width: 768px) {
     .bioGeneral div p{
         padding-top: 1.25rem;
-        color:rgb(0, 0, 0)
+        color:rgb(255, 255, 255)
     }
 }
 
 @media screen and (max-width: 768px) {
     .top-2 li a {
         padding-top: 1.25rem;
-        color: rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
     }
 }
 
@@ -45,9 +45,10 @@
     }
 }
 
+
 @media screen and (max-width: 768px){
-footer {
-    background-color: red;
-display: flex;
+    footer {
+        display: inline;
+    }
 }
-}
+

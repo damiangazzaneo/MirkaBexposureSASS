@@ -50,7 +50,31 @@ nav #toggle, nav label {
   display: none; }
 
 .Home {
-  background-image: url(/assets/img/fondohtml.jpg);
+  background-image: url(../assets/img/fondohtml.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed; }
+
+.Market {
+  background-image: url(../assets/img/marketfondo.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed; }
+
+.ubication {
+  background-image: url(../assets/img/fondoubication.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed; }
+
+.contact-us {
+  background-image: url(../assets/img/contactusfondo.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed; }
+
+.biography {
+  background-image: url(../assets/img/fondohtml.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed; }
@@ -58,7 +82,8 @@ nav #toggle, nav label {
 .presentacion-index {
   display: flex;
   font-family: 'Bebas Neue', sans-serif;
-  font-size: 1.5rem;
+  font-size: 1.6rem;
+  color: white;
   background-color: rgba(12, 7, 7, 0.349);
   text-align: center;
   justify-content: center;
@@ -82,30 +107,32 @@ nav #toggle, nav label {
 
 .presentacion-bio {
   font-family: 'Bebas Neue', sans-serif;
+  color: white;
   padding: .5rem;
   font-size: 1.2rem; }
 
 .cuadro-1, .cuadroDos {
   text-align: center;
   padding: 1rem 2rem 1rem 2rem;
-  width: 30rem;
-  height: 30rem;
+  width: auto;
+  height: auto;
   border-radius: 15px;
   border: 1px;
+  background-color: rgba(0, 0, 0, 0.737);
   box-shadow: gray;
   overflow: hidden;
-  margin: .3125rem; }
+  margin: .1563rem; }
 
 .cuadro-1 p, .cuadroDos p {
-  font-family: 'Cinzel Decorative', serif;
-  color: black;
-  font-size: 1rem;
+  font-family: 'Bebas Neue', sans-serif;
+  color: white;
+  font-size: 1.2rem;
   text-align: center; }
 
 .cuadroDos p {
-  color: black;
-  font-family: 'Cinzel Decorative', serif;
-  font-size: 1rem;
+  font-family: 'Bebas Neue', sans-serif;
+  color: white;
+  font-size: 1.2rem;
   text-align: center; }
 
 .contacto-form {
@@ -120,11 +147,12 @@ nav #toggle, nav label {
 
 .titulo-contactus h2 {
   font-family: 'Bebas Neue', sans-serif;
+  color: white;
   padding: .875rem;
   font-size: 2.5rem; }
 
 .probandOsi {
-  color: black;
+  color: white;
   font-family: 'Bebas Neue', sans-serif;
   font-size: 2rem;
   text-align: center;
@@ -142,10 +170,12 @@ footer {
   justify-content: space-between;
   align-items: center;
   gap: 15rem;
+  color: white;
   font-family: 'Bebas Neue', sans-serif;
   font-size: 1.5rem;
   text-align: center;
-  padding: 1.875rem;
+  padding: auto;
+  margin: auto;
   position: absolute;
   bottom: 0;
   left: 0;
@@ -153,8 +183,7 @@ footer {
   footer li {
     display: inline-block; }
     footer li a {
-      gap: 11.875rem;
-      color: black; }
+      gap: 11.875rem; }
       footer li a:hover {
         padding-left: .375rem;
         color: rgba(242, 255, 0, 0.905); }
@@ -170,6 +199,7 @@ footer {
 
 .parrafo-ubi {
   font-family: 'Bebas Neue', sans-serif;
+  color: white;
   padding: .875rem;
   font-size: 1.3rem; }
 
@@ -206,9 +236,9 @@ footer {
     height: 100%; } }
 
 @media screen and (max-width: 425px) {
-  .presentacion-index h2 {
+  .presentacion-index {
     padding-top: 1.25rem;
-    color: blue; } }
+    color: white; } }
 
 @media screen and (max-width: 425px) {
   .bioGeneral div {
@@ -223,15 +253,16 @@ footer {
 @media screen and (max-width: 425px) {
   .bioGeneral div p {
     padding-top: 1.25rem;
-    color: black; } }
+    color: white; } }
 
 @media screen and (max-width: 425px) {
   .top-2 li a {
     padding-top: 1.25rem;
-    color: yellow; } }
+    color: white; } }
 
 @media screen and (max-width: 425px) {
   .navbar {
+    color: white;
     padding-top: 1.25rem;
     flex-direction: column;
     align-items: center;
@@ -240,6 +271,7 @@ footer {
 @media screen and (max-width: 425px) {
   .ubi-html {
     display: flex;
+    color: white;
     text-align: center;
     flex-direction: column;
     justify-content: center;
@@ -248,10 +280,14 @@ footer {
     height: 70vh;
     gap: 1.875rem; } }
 
+@media screen and (max-width: 425px) {
+  footer {
+    display: inline; } }
+
 @media screen and (max-width: 768px) {
   .presentacion-index h2 {
     padding-top: 1.25rem;
-    color: #060606; } }
+    color: white; } }
 
 @media screen and (max-width: 768px) {
   .bioGeneral div {
@@ -266,12 +302,12 @@ footer {
 @media screen and (max-width: 768px) {
   .bioGeneral div p {
     padding-top: 1.25rem;
-    color: black; } }
+    color: white; } }
 
 @media screen and (max-width: 768px) {
   .top-2 li a {
     padding-top: 1.25rem;
-    color: black; } }
+    color: white; } }
 
 @media screen and (max-width: 768px) {
   .ubi-html {
@@ -286,5 +322,4 @@ footer {
 
 @media screen and (max-width: 768px) {
   footer {
-    background-color: red;
-    display: flex; } }
+    display: inline; } }
